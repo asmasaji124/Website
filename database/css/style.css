@@ -483,3 +483,65 @@ button:hover{
     text-align:center;
     font-size:15px;
 }
+/* Mobile Responsive */
+@media (max-width: 768px) {
+
+    nav{
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .nav-links{
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 15px;
+    }
+
+    .hero{
+        flex-direction: column;
+        text-align: center;
+        padding: 30px 20px;
+    }
+
+    .hero-text{
+        width: 100%;
+    }
+
+    .hero-image img{
+        width: 100%;
+        max-width: 350px;
+        margin-top: 20px;
+    }
+
+    .search-box{
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .category-buttons{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .cake-container{
+        grid-template-columns: 1fr;
+    }
+
+    .features{
+        grid-template-columns: 1fr;
+    }
+
+    .testimonials{
+        grid-template-columns: 1fr;
+    }
+
+    .contact-container{
+        flex-direction: column;
+    }
+
+    footer{
+        text-align: center;
+    }
+}
